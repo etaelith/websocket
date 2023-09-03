@@ -1,0 +1,20 @@
+{
+  "name": "backend-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon serverRoom.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "etaelith",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
